@@ -1,50 +1,50 @@
 {
-  "name": "dsh-version-badge-own",
-  "version": "0.4.0",
-  "description": "DeepSeek Harness 侧栏左下角常驻的极简版本号徽标：取宿主真实运行版本，并在官方更新源有新版本时提示可更新",
-  "keywords": [
-    "dsh",
-    "dsh-plugin",
-    "deepseek-harness",
-    "version"
-  ],
-  "type": "module",
-  "main": "lib/index.js",
-  "exports": {
-    ".": {
-      "default": "./lib/index.js"
-    },
-    "./client": {
-      "default": "./lib/client.js"
-    },
-    "./package.json": "./package.json",
-    "./locale/*.json": "./locale/*.json"
-  },
-  "files": [
-    "lib",
-    "cordis.patch.yml",
-    "README.md",
-    "locale",
-    "icon.png",
-    "LICENSE"
-  ],
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "platform": "web"
-    }
-  },
-  "license": "MIT",
-  "icon": "icon.png",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jtcjwm/dsh-version-badge-own.git"
-  },
-  "homepage": "https://github.com/jtcjwm/dsh-version-badge-own#readme",
-  "bugs": {
-    "url": "https://github.com/jtcjwm/dsh-version-badge-own/issues"
-  },
-  "author": "jtcjwm"
+    "name":  "dsh-version-badge-own",
+    "version":  "0.4.1",
+    "description":  "DeepSeek Harness 侧栏左下角常驻的极简版本号徽标：取宿主真实运行版本，并在官方更新源有新版本时提示可更新",
+    "keywords":  [
+                     "dsh",
+                     "dsh-plugin",
+                     "deepseek-harness",
+                     "version"
+                 ],
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  {
+                              "default":  "./lib/index.js"
+                          },
+                    "./client":  {
+                                     "default":  "./lib/client.js"
+                                 },
+                    "./package.json":  "./package.json",
+                    "./locale/*.json":  "./locale/*.json"
+                },
+    "files":  [
+                  "lib",
+                  "cordis.patch.yml",
+                  "README.md",
+                  "locale",
+                  "icon.png",
+                  "LICENSE"
+              ],
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "client":  {
+                               "platform":  "web"
+                           }
+            },
+    "license":  "MIT",
+    "icon":  "icon.png",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/jtcjwm/dsh-version-badge-own.git"
+                   },
+    "homepage":  "https://github.com/jtcjwm/dsh-version-badge-own#readme",
+    "bugs":  {
+                 "url":  "https://github.com/jtcjwm/dsh-version-badge-own/issues"
+             },
+    "author":  "jtcjwm"
 }

@@ -1,6 +1,6 @@
 {
     "name":  "dsh-version-badge-own",
-    "version":  "0.4.1",
+    "version":  "0.4.2",
     "description":  "DeepSeek Harness 侧栏左下角常驻的极简版本号徽标：取宿主真实运行版本，并在官方更新源有新版本时提示可更新",
     "keywords":  [
                      "dsh",
